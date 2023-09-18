@@ -1,0 +1,135 @@
+*{border: 0; margin: 0; padding: 0;}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 28, 28);
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+
+}
+
+.screen {
+    display: flex;
+    align-items: end;
+    text-align: end;
+    width: 216px;
+    background-color: grey;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 30px;
+    right: 0px;
+}
+
+.screen.p {
+    color: white;
+    display: flex;
+    position: fixed;
+    left: 0%;
+    text-align: right;
+    width: 216px;
+}
+p{
+    width: 216px;
+
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(55, 52, 52);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:gray;
+} 
+
+.btn:active {
+    background-color: red;
+    color: black;
+}
+
+.twobtn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.apagar{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(55, 52, 52);
+    cursor: pointer;
+}
+
+.apagar:hover {
+    background-color:gray;
+} 
+
+.apagar:active {
+    background-color: red;
+    color: black;
+}
+
+.clear{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(55, 52, 52);
+    cursor: pointer;
+}
+
+.clear:hover {
+    background-color:gray;
+} 
+
+.clear:active {
+    background-color: red;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    
+    .wapper{
+        width: 100%; 
+    }
+}
